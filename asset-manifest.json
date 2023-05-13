@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/kratsman-electric/static/css/main.e27d1168.css",
+    "main.js": "/kratsman-electric/static/js/main.8be41777.js",
+    "static/js/787.fbbda88a.chunk.js": "/kratsman-electric/static/js/787.fbbda88a.chunk.js",
+    "static/media/background.png": "/kratsman-electric/static/media/background.e3363268559f8ddc55e4.png",
+    "index.html": "/kratsman-electric/index.html",
+    "main.e27d1168.css.map": "/kratsman-electric/static/css/main.e27d1168.css.map",
+    "main.8be41777.js.map": "/kratsman-electric/static/js/main.8be41777.js.map",
+    "787.fbbda88a.chunk.js.map": "/kratsman-electric/static/js/787.fbbda88a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e27d1168.css",
+    "static/js/main.8be41777.js"
+  ]
+}
