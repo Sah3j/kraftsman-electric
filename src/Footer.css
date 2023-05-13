@@ -1,0 +1,103 @@
+.footer {
+    background-color: #222222;
+    padding: 2rem 5.5rem;
+    text-align: left;
+  }
+
+  .container {
+    display: flex;
+  }
+  
+
+  .footer-title {
+    font-weight: 800;
+    padding: 0.5rem 0.5rem;
+    background-color: #fff;
+    width: 15rem;
+    font-size: 4rem;
+    border: #222222 2px solid;
+    border-radius: 0.5rem;
+    color: #222222;
+    margin: 0;
+  }
+  
+  .footer-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  
+  .footer-phone,
+  .footer-email,
+  .footer-instagram {
+    font-size: 2rem;
+    color: #fff;
+    border: #fff solid 2px;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    padding: 0.5rem 0.5rem;
+    width: 25rem;
+    margin:0rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+    .footer-phone:hover,
+    .footer-email:hover,
+    .footer-instagram:hover {
+        background-color: #fff; 
+        color: #222222; 
+    }
+
+    @media only screen and (max-width: 1124px) { 
+        .footer {
+            padding: 2rem 3rem;
+          }
+
+          .footer-title {
+            width: 12rem;
+            font-size: 3rem;
+          }
+
+          .footer-phone,
+          .footer-email,
+          .footer-instagram {
+            font-size: 1.5rem;
+            width: 20rem;
+        }
+      }
+    
+      @media only screen and (max-width: 768px) {
+        .container {
+            justify-content: space-around;
+        }
+      }
+    
+      @media only screen and (max-width: 640px) {
+        .container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-phone,
+        .footer-email,
+        .footer-instagram {
+            margin-top: 1rem;
+        }
+      }
+
+			@media only screen and (max-width: 320px) {
+
+
+        .footer-phone,
+        .footer-email,
+        .footer-instagram {
+            width: 18rem;
+        }
+      }
+      

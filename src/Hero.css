@@ -1,0 +1,212 @@
+	.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    justify-content: space-between;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("background.png") no-repeat center;
+    background-size: cover;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+    color: #fff;
+    background: linear-gradient(to bottom, black, transparent);
+  }
+
+  .logo-section{
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-section h2{
+    margin-left: -1rem;
+  }
+  
+  .logo {
+    height: 3rem;
+    margin-right: 2rem;
+  }
+  
+  .navigation {
+    display: flex;
+  }
+  
+  .navigation ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navigation li {
+    margin-left: 2rem;
+  }
+  
+  .navigation a {
+    color: #fff;;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .introduction {
+    text-align: center;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+
+  .highlight {
+    box-shadow: inset 0 0 0 0 #217EFE;
+    padding: 0 0.5rem;
+    animation: highlight 0.5s ease-in;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes highlight {
+    0% {
+        box-shadow: inset 0 0 0 0 #217EFE;
+    }
+    100% {
+        box-shadow: inset 500px 0 0 0 #217EFE;
+    }
+  }
+  
+  .tagline {
+    font-weight: 800;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .description {
+    font-size: 2.2rem;
+  }
+  
+
+  .wiring {
+    background-color: #fff;
+    color: black;
+    padding: 0 0.2rem;
+    border-radius: 0.5rem;
+  }
+
+  .light {
+    background-color: #fff;
+    color: black;
+    padding: 0 0.2rem;
+    border-radius: 0.5rem;
+  }
+  
+  .cta {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #0069d9;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .cta:hover {
+    background-color: #005cbf;
+  }
+
+  .hero-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+	.scroll-cta {
+		color: #fff;
+		width: 100%;
+	}
+
+	.scroll-anim{
+		width: 2px;
+		height: 7px;
+		border: #fff 2px solid;
+	}
+
+	@media only screen and (max-width: 770px) {
+
+
+    .logo {
+      height: 3rem;
+      margin-right: 0rem;
+    }
+
+
+  }
+
+  @media only screen and (max-width: 930px) {
+    .header {
+      padding: 0 2rem;
+      padding-top: 1rem;
+    }
+
+    .logo-section h2 {
+      display: none;
+    }
+
+    .navigation li {
+      margin-left: 1rem;
+    }
+
+  }
+
+  @media only screen and (max-width: 498px) {
+    .header {
+      padding: 0 0.5rem;
+      padding-top: 1rem;
+    }
+
+    .navigation a {
+      font-size: 1rem;
+    }
+
+    .navigation li {
+      margin-left: 0.5rem;
+    }
+
+  }
+
+  .main-form {
+    margin: 0 auto;
+  }
+
+  @media only screen and (max-width: 1024px) { 
+    .tagline {
+      font-size: 4rem;
+    }
+
+    .description {
+      font-size: 2.2rem;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .tagline {
+      font-size: 3rem;
+    }
+
+    .description {
+      font-size: 1.8rem;
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+    .tagline {
+      font-size: 8vw;
+    }
+
+    .description {
+      font-size: 4.5vw;
+    }
+  }
+
+

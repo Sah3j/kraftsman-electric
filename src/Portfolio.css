@@ -1,0 +1,101 @@
+.portfolio-container {
+    z-index: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-items: center;
+    padding: 1rem 5rem;
+  }
+
+  .portfolio-section {
+    background-color: #111111;
+    box-shadow: inset 10px 0 20px -10px rgba(255, 255, 0, 0.5),
+              inset -10px 0 20px -10px rgba(255, 255, 0, 0.5);
+    padding-top: 0rem;
+    animation: borderLightAnimation 2s ease-in-out;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes borderLightAnimation {
+    0% {
+        box-shadow: inset 10px 0 20px -10px rgba(255, 255, 0, 0),
+        inset -10px 0 20px -10px rgba(255, 255, 0, 0);
+    }
+    50% {
+        box-shadow: inset 10px 0 20px -10px rgba(255, 255, 0, 0.2),
+        inset -10px 0 20px -10px rgba(255, 255, 0, 0.2);
+    }
+    100% {
+        box-shadow: inset 10px 0 20px -10px rgba(0,105,217, 0.5),
+        inset -10px 0 20px -10px rgba(0,105,217, 0.5);
+    }
+  }
+
+  .portfolio-heading {
+    padding-top: 2rem;
+    margin-top: 0rem;
+    color: #fff;
+    animation: lightUpAnimation 2s ease-in-out;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes lightUpAnimation {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+      text-shadow: 0 0 10px #FFFFFF;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .portfolio-container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .portfolio-image-box {
+    max-width: 600px;
+    max-height: 600px;
+    background-color: #fff;
+    border: solid 1px #fff;
+    -webkit-box-shadow:0px 0px 33px 2px rgba(255,255,255,0.5);
+    -moz-box-shadow: 0px 0px 33px 2px rgba(255,255,255,0.5);
+    box-shadow: 0px 0px 33px 2px rgba(255,255,255,0.5);
+    margin: 1rem 1rem;
+  }
+  
+  .portfolio-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 1124px) { 
+    .portfolio-container {
+        padding: 1rem 2rem;
+    }
+
+    .portfolio-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .portfolio-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .portfolio-image-box {
+        margin: 0.5rem 0.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+    
+  }
+  
