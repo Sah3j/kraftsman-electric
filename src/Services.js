@@ -1,45 +1,5 @@
 import React, { useEffect } from 'react';
 import './Services.css';
-import { GiWireCoil } from 'react-icons/gi';
-
-const servicesData = [
-  {
-    id: 1,
-    name: 'Wiring',
-    description: 'Expert wiring services for your home or business, including electrical panel upgrades and rewiring of existing systems.',
-    icon: "https://cdn.discordapp.com/attachments/1086121832370946048/1103578950904586250/Sah7j_Electrician_installing_light_fixtures_in_a_modern_house_p_d68dfec3-38cc-4826-9f55-be36aa99c1e4.png",
-  },
-  {
-    id: 2,
-    name: 'Lighting',
-    description: 'We specialize in installing and repairing lighting fixtures, both indoors and outdoors. We also offer energy-efficient lighting solutions.',
-    icon: "https://cdn.discordapp.com/attachments/1086121832370946048/1103578950904586250/Sah7j_Electrician_installing_light_fixtures_in_a_modern_house_p_d68dfec3-38cc-4826-9f55-be36aa99c1e4.png",
-  },
-  {
-    id: 3,
-    name: 'Repair',
-    description: 'Reliable and affordable repair services for all types of electrical problems, from circuit breakers to wiring issues.',
-    icon: "https://cdn.discordapp.com/attachments/1086121832370946048/1103578950904586250/Sah7j_Electrician_installing_light_fixtures_in_a_modern_house_p_d68dfec3-38cc-4826-9f55-be36aa99c1e4.png",
-  },
-  {
-    id: 4,
-    name: 'Installation',
-    description: 'We install a variety of electrical devices and appliances, including ceiling fans, smoke detectors, and more.',
-    icon: "https://cdn.discordapp.com/attachments/1086121832370946048/1103578950904586250/Sah7j_Electrician_installing_light_fixtures_in_a_modern_house_p_d68dfec3-38cc-4826-9f55-be36aa99c1e4.png",
-  },
-  {
-    id: 5,
-    name: 'Inspection',
-    description: 'Thorough electrical inspections to ensure your home or business is safe and up to code.',
-    icon: "https://cdn.discordapp.com/attachments/1086121832370946048/1103578950904586250/Sah7j_Electrician_installing_light_fixtures_in_a_modern_house_p_d68dfec3-38cc-4826-9f55-be36aa99c1e4.png",
-  },
-  {
-    id: 6,
-    name: 'Maintenance',
-    description: 'Regular maintenance services to keep your electrical system running smoothly and prevent future problems.',
-    icon: "https://cdn.discordapp.com/attachments/1086121832370946048/1103578950904586250/Sah7j_Electrician_installing_light_fixtures_in_a_modern_house_p_d68dfec3-38cc-4826-9f55-be36aa99c1e4.png",
-  },
-];
 
 function Services() {
 	// This will run one time after the component mounts

@@ -1,6 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './QuoteForm.css'
-import { GrDocumentText } from 'react-icons/gr'
 import { CgSmartphone } from 'react-icons/cg'
 import { MdOutlineMailOutline } from 'react-icons/md'
 
